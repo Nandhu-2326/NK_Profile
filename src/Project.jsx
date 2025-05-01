@@ -5,20 +5,7 @@ import { useNavigate } from "react-router-dom";
 
 const Project = () => {
   const nav = useNavigate();
-  const handleScroll = () => {
-    AOS.init({
-      duration: 800,
-      once: false,
-    });
-    AOS.refresh();
-  };
-  React.useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
   return (
     <>
       <div className="container d-flex flex-column align-items-center  justify-content-center mt-3">
@@ -113,7 +100,7 @@ const Project = () => {
             </div>
           </div>
 
-          <div className="col" data-aos="fade-left">
+          <div className="col" >
             <div
               className="d-flex justify-content-center p-2 rounded align-items-start flex-column profile text-light "
               style={{ gap: "1px" }}
@@ -152,7 +139,7 @@ const Project = () => {
             </div>
           </div>
 
-          <div className="col" data-aos="fade-right">
+          <div className="col">
             <div
               className="d-flex justify-content-center p-2 rounded align-items-start flex-column profile text-light "
               style={{ gap: "1px" }}
@@ -194,7 +181,7 @@ const Project = () => {
             </div>
           </div>
 
-          <div className="col" data-aos="fade-down">
+          <div className="col" >
             <div
               className="d-flex mt-2 justify-content-center p-2 rounded align-items-start flex-column profile text-light "
               style={{ gap: "1px" }}
@@ -237,7 +224,7 @@ const Project = () => {
             </div>
           </div>
 
-          <div className="col" data-aos="fade-up">
+          <div className="col" >
             <div
               className="d-flex mt-2 justify-content-center p-2 rounded align-items-start flex-column profile text-light "
               style={{ gap: "1px" }}
@@ -276,7 +263,7 @@ const Project = () => {
             </div>
           </div>
 
-          <div className="col" data-aos="fade-right">
+          <div className="col" >
             <div
               className="d-flex justify-content-center p-2 rounded align-items-start flex-column profile text-light "
               style={{ gap: "1px" }}
@@ -315,7 +302,7 @@ const Project = () => {
             </div>
           </div>
 
-          <div className="col" data-aos="fade-left">
+          <div className="col" >
             <div
               className="d-flex justify-content-center p-2 rounded align-items-start flex-column profile text-light "
               style={{ gap: "1px" }}

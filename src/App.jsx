@@ -113,7 +113,7 @@ const App = () => {
       <div className="container text-light mt-4">
         <div className="row d-flex g-2">
           <h1 className="h1 col-12 fw-bold">Skills</h1>
-          <div className="col-6 col-md-3 " data-aos="fade-left">
+          <div className="col-6 col-md-3 " >
             <div className="card bg-dark  border border-2 border-light  text-light">
               <div className="card-body  d-flex justify-content-center ">
                 <FaHtml5
@@ -130,7 +130,7 @@ const App = () => {
               />
             </div>
           </div>
-          <div className="col-6 col-md-2" data-aos="fade-right">
+          <div className="col-6 col-md-2" >
             <div className="card bg-dark  border border-2 border-light px-1  text-light">
               <div className="card-body  d-flex justify-content-center ">
                 <FaCss3
@@ -147,7 +147,7 @@ const App = () => {
               />
             </div>
           </div>
-          <div className="col-6 col-md-2" data-aos="fade-right">
+          <div className="col-6 col-md-2" >
             <div className="card border border-2 border-light px-1 bg-dark text-light">
               <div className="card-body  d-flex justify-content-center ">
                 <TbBrandJavascript
@@ -164,7 +164,7 @@ const App = () => {
               />
             </div>
           </div>
-          <div className="col-6 col-md-2" data-aos="fade-left">
+          <div className="col-6 col-md-2" >
             <div className="card border  border-2 border-light px-1 bg-dark text-light">
               <div className="card-body  d-flex justify-content-center ">
                 <FaBootstrap
@@ -186,8 +186,7 @@ const App = () => {
               />
             </div>
           </div>
-          <div className="col-12 col-md-3" data-aos="zoom-out">
-            <div className="card border border-2 border-light px-1 bg-dark text-light">
+          <div className="col-12 col-md-3" > <div className="card border border-2 border-light px-1 bg-dark text-light">
               <div className="card-body  d-flex justify-content-center ">
                 <FaReact
                   style={{ width: "65px", height: "90px" }}
@@ -206,8 +205,7 @@ const App = () => {
         </div>
       </div>
 
-      <div className="container mt-5 shadow-lg" data-aos="zoom-in">
-        <div className="h1 text-light fw-bold">About Me</div>
+      <div className="container mt-5 shadow-lg">  <div className="h1 text-light fw-bold">About Me</div>
         <p className="p text-light ">
           Hi, I'm Nanda Kumar, a passionate Front-End Web Developer with a
           strong foundation in HTML5, CSS3, Bootstrap 5, JavaScript, and React
