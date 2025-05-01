@@ -1,0 +1,40 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style:oblique;
+}
+@keyframes reactIcon {
+    from{
+        transform: rotate(360deg);
+    }
+}
+.reactIcon{
+    animation: reactIcon 4s linear infinite;
+}
+@keyframes html {
+    from{
+        transform:scale(1.5)
+    }
+}
+.html
+{
+    animation: html 1s linear infinite;
+}
+@keyframes css {
+    to
+    {
+        transform: rotateY(360deg);
+    }
+
+}
+.css
+{
+    animation: css 2s linear infinite;
+}
+.body
+{
+    background: rgb(12, 12, 17);
+}
+.profile
+{
+    background: rgb(7, 2, 17);
+}
