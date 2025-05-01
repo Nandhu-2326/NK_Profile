@@ -242,7 +242,7 @@ const App = () => {
               <FaGithub fontSize={"30px"} />
             </a>
             <a
-              href="https://wa.me./7603944133"
+              href="https://wa.me/7603944133"
               className="text-decoration-none text-light"
             >
               <FaWhatsapp fontSize={"30px"} />
