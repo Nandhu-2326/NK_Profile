@@ -86,20 +86,22 @@ const App = () => {
       <div className="container shadow-lg p-2 bg-dark mt-1">
         <div className="row d-flex align-items-center">
           <div className="col-8" style={{ color: "whitesmoke" }}>
-            <div className="h5 fw-bold">Hi, I'm Nandu</div>
-            <p className="p semi-bold" style={{ fontSize: "20px" }}>
+            <p className="p semi-bold ms-1" style={{ fontSize: "20px" }}>
               I'm a Front-end web developer who enjoys creating clean,
               responsive, and user-friendly websites. <br /> I Love learning and
               building projects that make an Impact.
             </p>
           </div>
-          <div className="col-4 d-flex justify-content-center">
+          <div className="col-4 d-flex justify-content-center flex-column align-items-center">
             <img
               src="Nandu.jpg"
               alt=""
               style={{ width: "100px", height: "100%" }}
               className="img img-fluid  rounded rounded-circle"
             />
+            <div className=" fw-bold text-light" style={{ fontSize: "11px" }}>
+              Hi, I'm Nandu
+            </div>
           </div>
         </div>
       </div>
